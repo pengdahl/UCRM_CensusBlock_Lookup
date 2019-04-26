@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "information": {
+    "name": "censusblock-lookup",
+    "displayName": "Census Block Lookup Plugin",
+    "description": "Use FCC API to get Census Block from Latitude and Longitude",
+    "url": "https://github.com/Ubiquiti-App/UCRM-plugins",
+    "version": "1.1.2",
+    "ucrmVersionCompliancy": {
+      "min": "2.14.0-beta4",
+      "max": null
+    },
+    "author": "Philip Engdahl, SnowCrest, Inc."
+  },
+  "menu": [
+    {
+      "label": "Census Block Lookup",
+      "type": "admin",
+      "target": "iframe"
+    }
+  ]
+}
